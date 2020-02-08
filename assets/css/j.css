@@ -1,0 +1,90 @@
+.body {
+    height: 100%;
+    width: 100%;
+}
+
+.player {
+        background-color: cyan;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        top: 50px;
+        }
+
+.left {
+        position: absolute;
+        left: 290px;
+        background-color: magenta;
+        }
+
+.right {
+        position: absolute;
+        right: 190px;
+        background-color: aqua;
+        }
+
+.controls {
+        height: 200px;
+        width: 400px;
+        border: 1px solid gray;
+        position: fixed;
+        top: 270px;
+     }
+
+.left .controls {
+        left: 200px;
+
+     }
+
+     .right .controls {
+        right: 100px;
+     }
+
+     .arrow {
+        border: 1px solid black;
+            height: 80px;
+            width: 80px;
+            font-size: 50px;
+            text-align: center;
+     }
+
+     .up-arrow:before {
+        content: '\002191'
+     }
+
+     .up-arrow {
+        position: absolute;
+        top: 5px;
+        left: 160px;
+     }
+
+     .down-arrow:before {
+        content: '\002193'
+     }
+
+     .down-arrow {
+        position: absolute;
+        top: 90px;
+        left: 160px;
+
+     }
+
+     .left-arrow:before {
+        content: '\002190';
+     }
+
+     .left-arrow {
+        position: absolute;
+        top: 90px;
+        left: 75px;
+     }
+
+     .right-arrow:before {
+     content: '\002192'
+     }
+
+     .right-arrow {
+        position: absolute;
+        top: 90px;
+        left: 245px;
+     }
